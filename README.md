@@ -31,6 +31,11 @@ TriggerClientEvent("esc_carkey:use", src, itemData.info.plate,  itemData.info.mo
 ```
 <img align="center" alt="Inventory UseItem" src="https://cdn.discordapp.com/attachments/912538828630265946/962700714222682172/carkey_qb_server_useitem.png"/>
 
+
+
+
+
+
 ## ESX
 
  **_inventory/server/main.lua_**  *_"inventory:server:UseItemSlot"_*
