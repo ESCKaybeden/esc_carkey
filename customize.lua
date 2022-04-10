@@ -1,14 +1,13 @@
 Customize = {
 
-    Framework = "QBCore",       -- QBCore or ESX --
+    Framework = "ESX",   -- QBCore or ESX --
 
-    LockRadius = 25,
+    LockRadius = 25,   -- Distance to unlock
 
-    Animation = "anim@heists@keycard@",
+    Animation = "anim@heists@keycard@",   -- https://alexguirre.github.io/animations-list/
 
-
-    AdminGiveKey = true,
-    AdminGiveCommand = "keyver",
+    AdminGiveKey = true,   -- true or false --
+    AdminGiveCommand = "givecarkey",
     AdminList = {
         ["steam:"],
     }

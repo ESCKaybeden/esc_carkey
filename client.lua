@@ -24,7 +24,6 @@ RegisterNetEvent("esc_carkey:use", function(plate, model)
     end
 end)
 
-
 function CarLights(vehicle, number, wait)
 	for i = 1, number do
         SetVehicleLights(vehicle, 2)
@@ -43,3 +42,9 @@ end
 function Trim(value)
     return (string.gsub(value, '^%s*(.-)%s*$', '%1'))
 end
+
+
+TriggerEvent('chat:addSuggestion', "/"..Customize.AdminGiveCommand, 'ESCKaybeden carkey', {
+    { name="Plate", help="Plate" },
+    { name="Model", help="Model name" }
+})
