@@ -52,12 +52,5 @@ TriggerClientEvent("esc_carkey:use", src, itemData.info.plate,  itemData.info.mo
 <div align="center">
   <h1> Customize </h1>
 </div>
-<img align="center" alt="Customize.lua" src="https://cdn.discordapp.com/attachments/959996073882050610/959996154622398534/carkey.png"/>
+[![Video](https://cdn.discordapp.com/attachments/959996073882050610/959996154622398534/carkey.png)](https://www.youtube.com/watch?v=e28gst7Hptk)
 
-<object width="425" height="350">
-  <param name="movie" value="https://www.youtube.com/watch?v=e28gst7Hptk" />
-  <param name="wmode" value="transparent" />
-  <embed src="https://www.youtube.com/watch?v=e28gst7Hptk"
-         type="application/x-shockwave-flash"
-         wmode="transparent" width="425" height="350" />
-</object>
